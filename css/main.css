@@ -1,0 +1,48 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#waiting-overlay{
+	position:fixed;
+	left:0;
+	width:100%;
+	height:100%;
+	background:no-repeat center center rgba(0,0,0,0.7);
+	z-index:1000;
+	text-align: center;
+	padding-top: 14em;
+	font-size: 20px;
+	color:#428bca;
+	font-family: Helvetica;
+	font-weight: 600;
+	color:#CDCDCD;
+}
+
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  line-height: 110px;
+  z-index: 2;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+
+.chartBtn{
+  display: block;
+  width: 180px;
+}
