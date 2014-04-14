@@ -21,9 +21,7 @@
 			$jsonSMS["words"] = $currentSMS->words;
 			$jsonSMS["message"]= $currentSMS->message;
 			array_push($smsArray, $currentSMS);
-			
-			//echo $currentSMS->type ."   ";
-	       // echo $currentSMS->message . "<br /></br />";
+		
 	    }
 	    
 	    
