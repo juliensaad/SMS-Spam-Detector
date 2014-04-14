@@ -75,7 +75,7 @@ function probList(){
         // Probability that a word is a ham 
 		var hamProb = (hamCount / totalWord) / ((hamCount/totalWordHam) * (totalWordHam/totalWord) + (spamCount/totalWordSpam) * (totalWordSpam/totalWord));		
 		
-		//console.log( word +" -> ham :" + hamCount + "     spam :" + spamCount + "  Prob = " + hamProb );
+	
 	
 		hamProbList[word] = hamProb;
 	}
@@ -92,7 +92,7 @@ function probList(){
         // Probability that a word is a ham 
 		var spamProb = (spamCount / totalWord) / ((spamCount/totalWordSpam) * (totalWordSpam/totalWord) + (hamCount/totalWordHam) * (totalWordHam/totalWord));		
 		
-		//console.log( word +" -> ham :" + hamCount + "     spam :" + spamCount + "  Prob = " + spamProb );
+		
 	
 		spamProbList[word] = spamProb;
 	}
