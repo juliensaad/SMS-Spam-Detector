@@ -12,8 +12,7 @@
 			$parts = preg_split('/\s+/', $buffer);
 			
 			$message = trim(preg_replace('/\t+/', ' ', $buffer));
-			// $parts[0] = type, the rest is the message
-		
+			
 			$currentSMS = new SMS($parts[0], substr(strstr($message," "), 1));
 			
 			$jsonSMS = array();
