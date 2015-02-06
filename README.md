@@ -1,4 +1,7 @@
-INF4215-Spam-Detector
+SMS-Spam-Detector
 =====================
 
-Détecteur de spam SMS créé dans le cadre du TP2 du cours INF4215
+Spam detector:
+  - Bayesian Networks
+  - Machine learning
+  - Data collected and analysed from: http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
